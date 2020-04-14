@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Happy Birthday Show auf Radio Helsinki mit Christian Steinberger</title>
+    <link rel="stylesheet" href="/styles/stylesheet.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Happy Birthday Show</h1>
+        <table>
+            <tr>
+              <th><a href="index.html" class="menu">Home</a></th>
+              <th><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Kommende Sendungen</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">15.04.2020</a>
+                  <a href="#about">13.05.2020</a>
+                  <a href="#contact">10.06.2020</a>
+                  <a href ="#ddd">08.07.2020</a>
+                </div>
+              </div></th>
+              <th><div class="dropdown">
+                <button onclick="myFunction2()" class="dropbtn">Vergangene Sendungen</button>
+                <div id="myDropdown2" class="dropdown-content">
+                  <a href="#home">18.03.2020</a>
+                  <a href="#about">19.02.2020</a>
+                  <a href="#contact">22.01.2020</a>
+                  <a href ="#ddd">25.12.2019</a>
+                </div>
+              </div></th>
+              <th><a href="kontakt.html" class="menu">Kontakt</a></th>
+            </tr>
+        </table>
+        <p><a href="https://helsinki.at/program/shows/happy-birthday-show" target="_blank">Hier</a> finden Sie die Happy Birthdayshow auf der Radio Helsinki Homepage.</p>
+        <p>Alle Sendungen zum Nachhören finden Sie auf der <a href="https://cba.fro.at/series/happy-birthday-show" target="_blank">CBA-Plattform</a>.</p>
+        <p>Bei Fragen oder Feedback freue ich mich auf ihr E-Mail an: <a href="mailto:happybirthdayshowhelsinki@gmail.com">happybirthdayshowhelsinki@gmail.com</a>.</p>
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction2() {
+          document.getElementById("myDropdown2").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+</body>
+</html>
