@@ -121,3 +121,24 @@ p {
 .datum {
     color: red;
 }
+.nachrichtgesendet {
+    color: rgb(255, 34, 34);
+}
+.button {
+    background-color: rgb(121, 199, 224);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 200px;
+}
+.button {
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: rgb(14, 171, 223);
+    color: white;
+}
