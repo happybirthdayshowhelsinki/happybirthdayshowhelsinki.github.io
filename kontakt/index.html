@@ -35,9 +35,14 @@
         target="_blank">CBA-Plattform</a>.</p>
     <p>Bei Fragen oder Feedback freue ich mich auf ihr E-Mail an: <a
         href="mailto:happybirthdayshowhelsinki@gmail.com">happybirthdayshowhelsinki@gmail.com</a></p>
-    <p>Sie können Ihre Nachricht auch direkt hier hinterlassen. <i>Die E-Mail Adresse ist nur erforderlich, wenn Sie
-        eine Rückmeldung erhalten möchten.</i></p>
+    <p>Sie können Ihre Nachricht auch direkt hier hinterlassen.<br><i>Die E-Mail Adresse ist nur erforderlich, wenn Sie
+        eine Rückmeldung erhalten möchten.<br>Wenn Sie sich für den Newsletter anmelden möchten, ist der Vorname und die
+        E-Mail Adresse erforderlich.</i></p>
     <form method="POST" action="https://forms.un-static.com/forms/70546da598b8677382ec7910f74e61c90a47bb33">
+      <p>
+        <label for="Vorname">Vorname</label><br>
+        <input type="text" name="vorname" placeholder="z.B. Max">
+      </p>
       <p>
         <label for="email">E-Mail Adresse</label><br>
         <input type="email" name="email" placeholder="jemand@example.com">
@@ -46,6 +51,10 @@
         <label for="nachricht">Ihre Nachricht...</label><br>
         <textarea name="nachricht" id="textarea" cols="30" rows="5"
           placeholder="Bitte geben Sie hier Ihre Nachricht ein..." required></textarea>
+      </p>
+      <p>
+        <input type="checkbox" name="newsletter">
+        <label for="newsletter">Ich möchte mich für den Happy Birthday Show Newsletter anmelden.</label>
       </p>
       <button class="button" type="submit">Versenden</button>
     </form>
