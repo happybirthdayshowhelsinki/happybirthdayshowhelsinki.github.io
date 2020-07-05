@@ -124,7 +124,7 @@ p {
 .nachrichtgesendet {
     color: rgb(255, 34, 34);
 }
-.button {
+.button, #abonnieren {
     background-color: rgb(121, 199, 224);
     border: none;
     color: black;
@@ -135,10 +135,15 @@ p {
     font-size: 20px;
     border-radius: 200px;
 }
-.button {
+.button, #abonnieren {
     transition-duration: 0.4s;
 }
-.button:hover {
+.button:hover, #abonnieren:hover {
     background-color: rgb(14, 171, 223);
     color: white;
+}
+@media only screen and (max-width: 991px) {
+    #zumNewsletterAnmelden {
+        padding-top: 40px;
+    }
 }
