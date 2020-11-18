@@ -217,3 +217,10 @@ p {
         display: block;
     }
 }
+.corona-hinweis {
+    color: red;
+    text-align: center;
+}
+.corona-hinweis-abstand {
+    padding-bottom: 25px;
+}
