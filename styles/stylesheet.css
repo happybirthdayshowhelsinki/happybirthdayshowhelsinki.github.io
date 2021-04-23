@@ -177,3 +177,36 @@ p {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+.wiederholung-1 {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 332px) {
+    .wiederholung-2 {
+        margin-right: 10px;
+    }
+}
+.announcement-1 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.announcement-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.announcement-font {
+    font-family: 'Permanent Marker';
+}
+.announcement-torte-div {
+    text-align: center;
+}
+.announcement-torte-img {
+    width: 125px;
+}
