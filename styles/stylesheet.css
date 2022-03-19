@@ -142,6 +142,11 @@ p {
 .datum {
     color: red;
 }
+.jahr {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Forte';
+}
 .nachrichtgesendet {
     color: rgb(255, 34, 34);
 }
