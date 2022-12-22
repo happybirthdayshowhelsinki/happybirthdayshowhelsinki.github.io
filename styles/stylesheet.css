@@ -223,3 +223,17 @@ p {
         padding-bottom: 15px;
     }
 }
+.wiederholung-1 {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 332px) {
+    .wiederholung-2 {
+        margin-right: 10px;
+    }
+}
